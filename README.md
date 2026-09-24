@@ -59,3 +59,10 @@ streamlit run app.py
 - Añadir historial de consultas.
 - Permitir comparar la respuesta de varios modelos.
 - Añadir opción de usar una API externa además del modelo local.
+## Arquitectura
+
+El flujo principal de la aplicación es:
+
+Usuario → Streamlit → Prompt estructurado → Ollama → Llama 3.2 → Respuesta
+
+La interfaz recoge la acción seleccionada, el lenguaje y el contenido introducido por el usuario. A partir de estos datos se construye un prompt específico que se envía al modelo local mediante Ollama.
