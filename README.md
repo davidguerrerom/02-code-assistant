@@ -1,6 +1,9 @@
 # AI Code Assistant
 
 Aplicación web desarrollada con Python y Streamlit que utiliza un modelo de inteligencia artificial local mediante Ollama para ayudar en tareas de programación.
+## Captura de la aplicación
+
+![AI Code Assistant](screenshot.png)
 ## Funcionalidades
 
 - Generar código.
